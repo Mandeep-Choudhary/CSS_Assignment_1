@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<h1 class="heading1">CSS ASSIGNMENT NO 1</h1>
+<div class="container">
+    <nav>
+        <a href="#">Home</a> 
+        <a href="#">Login</a> 
+        <a href="#">History</a> 
+        <a href="#">Additionals</a>
+        <a href="#">Customer Care</a>
+    </nav>
+</div>
+  
+    <h2 class="heading2">Student Registration Form</h2>
+
+    <table id="table1">
+    <form action="#">
+        <tr>
+            <td><label for="name" class="right-lables">Name:</label></td>
+            <td><input type="text" id="name" name="name"></td>
+        </tr>
+        <tr>
+            <td><label for="phnNo"class="right-lables">Phone No:</label></td>
+            <td><input type="text" id="phnNo" name="phnNo"></td>
+        </tr>
+        
+        <tr>
+            <td><label for="DOB" class="right-lables">Date of Birth:</label></td>
+            <td><input type="date" id="DOB" name="DOB"></td>
+        </tr>
+        <tr>
+            <td class="downs"><label for="address">Address:</label></td>
+            <td><textarea id="address" name="address" rows="3" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td><input type="radio" name="gender" value="male"> Male
+                <input type="radio" name="gender" value="female"> Female</td>
+        </tr>
+         <tr>
+            <td><label for="city">City:</label></td>
+            <td><select name="city" id="city">
+                <option value="">Select your city</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Jammu">Jammu</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+                </select></td>
+         </tr>     
+        <tr>
+            <td class="downs"><label for="down1">Hobbies:</label></td>
+            <td id="down1"><input type="checkbox" id="hobby1" name="hobby1" value="music">
+                <label for="hobby1">Music</label><br>
+                <input type="checkbox" id="hobby2" name="hobby2" value="reading">
+                <label for="hobby2">Reading</label><br>
+                <input type="checkbox" id="hobby3" name="hobby3" value="sports">
+                <label for="hobby4">Sports</label><br>
+                <input type="checkbox" id="hobby4" name="hobby4" value="travelling">
+                <label for="hobby4">Travelling</label><br>
+            </td>
+        </tr>        
+        <tr>
+            <td class="btns"><button class="btn1" type="submit" value="Submit ">Submit</button></td>
+            <td><button class="btn2" type="reset" value="Reset ">Reset</button></td>
+        </tr> 
+    </form>
+    </table>
+
+<div class="lower-container">
+    <h1>Display and Visibility Property</h1>
+
+    <h2 class="nvh">This is a visible heading(with visiblity visible propert)</h2>
+    <h4>Hidden heading with visiblity property take up space</h4>
+    <h2 class="vh">Not visible heading</h2>
+
+    <h2 class="ndh">This is a visible heading(with display block property)</h2>
+    <h4>Hidden heading with display property does not take up space</h4>
+    <h2 class="dh">Not visible heading</h2>
+
+    <h1>Positioning Property</h1>
+    <br><br>
+    <h4 class="abs-pos">Paragraph with absolute positioning</h4>
+    <h2>Absolute Positioning:We can place a element anywhere in the page</h2>
+    <h2>Relative positioning</h2>
+    <div>
+        <h4 class="r-head1">Paragraph moved right</h4>
+        <h4 class="r-head2">Paragraph moved left</h4>
+    </div>
+</div>
+</body>
+</html>
